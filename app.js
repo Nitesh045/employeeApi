@@ -28,8 +28,8 @@ const tablerouter= require('./routes/tableRoutes')
 app.use(tablerouter)
 
 
-const userdata= require('./routes/userRoutes');
-app.use(userdata)
+// const userdata= require('./routes/userRoutes');
+// app.use(userdata)
 
 app.listen(port,()=>{
     console.log(`server listining at ${port}`)
